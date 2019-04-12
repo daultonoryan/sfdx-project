@@ -1,0 +1,38 @@
+<!--the current version is html 5
+every html file needs a doctype declaration should always be included not an html 
+
+-->
+
+<!doctype html>
+
+<!--root tag for an html doc is the html tag-->
+<html>
+    <!--primary html tags are the head and the body the head tag includes important metadata and the body is the 
+    starting point for the actual page metadata can include things like charset the title of the page-->
+    <head>
+        <title>
+            this is the page title
+        </title>
+        <meta charset="utf-8"/>
+
+    </head>
+    <body>
+        <!--body contains all of the info in an html page some common elements div p select h1-h6-->
+        <h3>this is an h3 tag </h3>
+        <h1>this is an h1 tah</h1>
+        <h6>this is an h6 tag</h6>
+        <p>this is a paragraph</p>
+        <div style="background-color: blue; height:200px;" hidden>dive height 200</div>
+        <!--you can use as many valid attributes for a tag as might possess you using style on a tag is inline css
+        you should note that using quotes with attributes is totally optional but no whitespace can be included
+        Id and class are probably the most important attributes
+        -->
+
+        <p id="myId">im a paragraph with an id of myid</p>
+        <p class="myClass">im a paragraph with a class of myClass</p>
+        <!--word to the wise dont duplicate the id on an element-->
+    </body>
+
+    <!--dom is an object tree with each object representing one of the html elements on the page it provides a way for us to locate and select 
+    html elements on the page -->
+</html>

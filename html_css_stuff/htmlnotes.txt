@@ -1,0 +1,5 @@
+hypertext markup language
+    not a programming language markup language\
+    designed to be interpretted by a browser
+    used to structure web pages
+    tag based structure
